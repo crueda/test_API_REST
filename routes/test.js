@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var UxoModel = require('../models/uxo');
+var UxoModel = require('../models/test');
 
 // Fichero de propiedades
 var PropertiesReader = require('properties-reader');
