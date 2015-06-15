@@ -1,0 +1,7 @@
+api.properties
+
+anotaciones.txt
+npm-debug.log
+.svn/*
+
+.svn/wc.db

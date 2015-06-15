@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/dropdowns-enhancement.css">
+	<link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/dropdowns-enhancement.min.css">
+
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="/bower_components/bootstrap/dist/js/dropdowns-enhancement.js"></script>
+
+</head>
+<body>
+	 <nav class="navbar navbar-default" role="navigation">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <div class="navbar-brand navbar-brand-centered">SUMO</div>
+		    </div>
+
+ 			<div class="bs-example">
+          <ul class="nav nav-pills">
+
+            <li class="dropdown"><a href="#"></a></li>
+            <li class="dropdown"> <a href="#" data-toggle="dropdown">Personnel<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/webkyrosapi/personnels" tabindex="-1">Show all personnels</a></li>
+                <li class="divider"></li>
+                <li><a href="/webkyrosapi/newPersonnel" tabindex="-1">New personnel</a></li>
+								<li class="divider"></li>
+								<li class="divider"></li>
+								<li><a href="/webkyrosapi/certificates" tabindex="-1">Show all certificates</a></li>
+                <li class="divider"></li>
+                <li><a href="/webkyrosapi/newCertificate" tabindex="-1">New certificate</a></li>
+              </ul>
+            </li>
+
+						<li class="dropdown"><a href="#"></a></li>
+            <li class="dropdown"> <a href="#" data-toggle="dropdown">Vessel<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/webkyrosapi/vessels" tabindex="-1">Show all vessels</a></li>
+                <li class="divider"></li>
+                <li><a href="/webkyrosapi/newVessel" tabindex="-1">New vessel</a></li>
+              </ul>
+            </li>
+
+						<li class="dropdown"><a href="#"></a></li>
+            <li class="dropdown"> <a href="#" data-toggle="dropdown">UXO<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/webkyrosapi/uxos" tabindex="-1">Show all UXOs</a></li>
+                <li class="divider"></li>
+                <li><a href="/webkyrosapi/newUxo" tabindex="-1">New UXO</a></li>
+              </ul>
+            </li>
+
+						<li class="dropdown"><a href="#"></a></li>
+            <li class="dropdown"> <a href="#" data-toggle="dropdown">Area<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/webkyrosapi/areas" tabindex="-1">Show all areas</a></li>
+                <li class="divider"></li>
+                <li><a href="/webkyrosapi/newArea" tabindex="-1">New area</a></li>
+								<li class="divider"></li>
+								<li class="divider"></li>
+								<li><a href="/webkyrosapi/vertexes" tabindex="-1">Show all vertex</a></li>
+								<li><a href="/webkyrosapi/vertexes/asignedTo/xxx" tabindex="-1">Show all vertex of area xxx</a></li>
+                <li class="divider"></li>
+                <li><a href="/webkyrosapi/newVertex" tabindex="-1">New vertex</a></li>
+              </ul>
+            </li>
+
+						<li class="dropdown"> <a href="#" data-toggle="dropdown">Route<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/webkyrosapi/routes" tabindex="-1">Show all routes</a></li>
+                <li class="divider"></li>
+                <li><a href="/webkyrosapi/newRoute" tabindex="-1">New route</a></li>
+								<li class="divider"></li>
+								<li class="divider"></li>
+								<li><a href="/webkyrosapi/vertexes" tabindex="-1">Show all beacon</a></li>
+                <li class="divider"></li>
+                <li><a href="/webkyrosapi/newVertex" tabindex="-1">New beacon</a></li>
+              </ul>
+            </li>
+
+						<li class="dropdown"><a href="#"></a></li>
+						<li class="dropdown"> <a href="#" data-toggle="dropdown">Log<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="/webkyrosapi/logs" tabindex="-1">Show all log messages</a></li>
+								<li class="divider"></li>
+								<li><a href="/webkyrosapi/newLog" tabindex="-1">New log message</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown"><a href="#"></a></li>
+						<li class="dropdown"> <a href="#" data-toggle="dropdown">Emergengy<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="/webkyrosapi/emergencies" tabindex="-1">Show all log emergencies</a></li>
+								<li class="divider"></li>
+								<li><a href="/webkyrosapi/newEmergency" tabindex="-1">New emergency</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown"><a href="#"></a></li>
+						<li class="dropdown"> <a href="#" data-toggle="dropdown">AIS<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="/webkyrosapi/aises" tabindex="-1">Show all AIS messages</a></li>
+								<li class="divider"></li>
+								<li><a href="/webkyrosapi/newAis" tabindex="-1">New AIS message</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown"><a href="#"></a></li>
+						<li class="dropdown"> <a href="#" data-toggle="dropdown">Swipe<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="/webkyrosapi/swipes" tabindex="-1">Show all personnel swipe</a></li>
+								<li class="divider"></li>
+								<li><a href="/webkyrosapi/newSwipe" tabindex="-1">New personnel swipe</a></li>
+							</ul>
+						</li>
+
+          </ul>
+          <!-- /pills -->
+        </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <!--div class="collapse navbar-collapse" id="navbar-brand-centered">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="/">Crear un nuevo usuario</a></li>
+		        <li><a href="/users/">Ver todos los usuarios</a></li>
+		      </ul>
+		    </div--!><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	<div class="container">
+		<div class="row">
