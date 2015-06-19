@@ -29,6 +29,16 @@ router.get('/AISMessage/Status', function(req, res)
 
 });
 
+router.post('/AISMessage/Status', function(req, res)
+{
+  console.log("post");
+    log.info ("Procesando POST de AISMessage/Status");
+
+    // TODO. comprobar token
+    res.json(200,{"status":"ON", "upTime":"999999"})
+
+});
+
 
 
 module.exports = router;
